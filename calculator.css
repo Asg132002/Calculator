@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.calculator {
+    width: 320px;
+    height: 570px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.61);
+    border-radius: 20px;
+    background-color: rgb(1, 1, 40);
+    overflow: hidden;
+}
+
+.display form {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.display form input {
+    width: 100%;
+    height: 130px;
+    border-radius: 10px;
+    font-size: 2rem;
+    padding: 1rem;
+    background: black;
+    box-shadow: -2px -2px 2px rgb(80, 79, 79), 2px 2px 2px rgb(82, 82, 82);
+    color: white;
+    text-align: right;
+
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.buttons input {
+    flex: 20%;
+    margin: 10px;
+    box-shadow: -5px -5px 10px rgb(80, 79, 79), 5px 5px 10px rgb(82, 82, 82);
+    background: transparent;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+}
+
+.buttons .delete {
+    width: 84px;
+}
+
+.buttons .clear {
+    background: red;
+    width: 90px;
+}
+
+.buttons .equal {
+    background: green;
+    width: 130px;
+}
